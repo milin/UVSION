@@ -14,18 +14,12 @@
 
       // Add in a full set of searchers
       var localSearch = new google.search.LocalSearch();
-      //searchControl.addSearcher(localSearch);
-      //searchControl.addSearcher(new google.search.WebSearch());
       var options = new google.search.SearcherOptions();
       options.setExpandMode(google.search.SearchControl.EXPAND_MODE_OPEN);
       searchControl.addSearcher(new google.search.VideoSearch(),options);
       searchControl.setResultSetSize()
-   //  AB=google.search.Search.LARGE_RESULTSET
-    // searchControl.addSearcher(new google.search.setResultSetSize(AB);
 
-      //searchControl.addSearcher(new google.search.BlogSearch());
 
-      // Set the Local Search center point
       localSearch.setCenterPoint("New York, NY");
 
       // Tell the searcher to draw itself and tell it where to attach
