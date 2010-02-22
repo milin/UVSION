@@ -1,0 +1,11 @@
+{
+  "name": "UVSION",
+  "version": "1.5",
+  "description": "Search Videos Instantly.",
+  "browser_action": {
+    "default_icon": "video.jpg","popup": "popup.html",
+    "default_title": "UVSION"
+  },
+ 
+  
+}
